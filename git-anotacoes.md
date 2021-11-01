@@ -1,10 +1,4 @@
----
-noteId: "ee092d803aa011ecacee05864206f7c4"
-tags: []
-
----
-
-##Usando do git 
+# Usando do git 
 
 * Criando um repositório
 ~~~
@@ -30,3 +24,14 @@ git push origin main
 ~~~
 git status
 ~~~
+
+## resolvendo conflitos
+
+* puxando o conteúdo mais atual
+~~~
+git pull origin master
+~~~
+
+## resolvendo conflitos de merge
+
+* estude a linha conflitante e modifique o arquivo para depois adicionar os arquivos com o comando git add *
